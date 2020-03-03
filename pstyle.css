@@ -1,0 +1,361 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+    color: #b4b4b4;
+    font-family: 'Nunito', sans-serif ;
+}
+
+div > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding-bottom: 8px;
+}
+
+.main-title {
+    font-size: 5em;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.nav-bar-1{
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.nav-bar-1:link {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.nav-bar-1:visited {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.nav-bar-1:hover {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 1.1em;
+}
+
+.nav-bar-1:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+       /* adjust this to move up and down */
+    bottom: -0px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: #C0C0C0;
+    transition:.5s;
+}
+
+.nav-bar-1:hover:after {
+    width: 80%;
+    height: 5px;
+    background: #f0f0f0;
+}
+
+.nav-bar-2{
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.nav-bar-2:link {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.nav-bar-2:visited {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.nav-bar-2:hover {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 1.1em;
+}
+
+.nav-bar-2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+       /* adjust this to move up and down.*/
+    bottom: -0px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: #C0C0C0;
+    transition:.5s;
+}
+
+.nav-bar-2:hover:after {
+    width: 80%;
+    height: 5px;
+    background: #f0f0f0;
+}
+
+.nav-bar-3{
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+
+.nav-bar-3:link {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.nav-bar-3:visited {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.nav-bar-3:hover {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 1.1em;
+}
+
+.nav-bar-3:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+       /* adjust this to move up and down.*/
+    bottom: -0px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: #C0C0C0;
+    transition:.5s;
+}
+
+.nav-bar-3:hover:after {
+    width: 80%;
+    height: 5px;
+    background: #f0f0f0;
+}
+
+.nav-bar-4{
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.nav-bar-4:hover {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 1.1em;
+}
+
+.nav-bar-4:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+       /* adjust this to move up and down.*/
+    bottom: -0px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: #C0C0C0;
+    transition:.5s;
+}
+
+.nav-bar-4:hover:after {
+    width: 80%;
+    height: 5px;
+    background: #f0f0f0;
+}
+
+.nav-bar-5{
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.nav-bar-5:hover {
+    background-color: #1e1e1e;
+    color:#f0f0f0;
+    padding: 1.1em;
+}
+
+.nav-bar-5:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+       /* adjust this to move up and down.*/
+    bottom: -0px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: #C0C0C0;
+    transition:.5s;
+}
+
+.nav-bar-5:hover:after {
+    width: 80%;
+    height: 5px;
+    background: #f0f0f0;
+}
+
+.pic-of-me {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.home-page-subtitle {
+    text-decoration: none; 
+    position: relative; 
+    padding: 40px;
+  }   
+
+.home-page-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.phone {
+    padding-bottom:1%;
+    padding-top: 1%;
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.phone:hover {
+    background-color: #1e1e1e;
+    color:#f0f0f0;
+}
+
+.phone:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+       /* adjust this to move up and down */
+    bottom: 60%; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: #C0C0C0;
+}
+
+.email {
+    padding-bottom:1%;
+    padding-top: 1%;
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.email:hover {
+    background-color: #1e1e1e;
+    color:#f0f0f0;
+}
+
+.email:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+       /* adjust this to move up and down */
+    bottom: 60%; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: #C0C0C0;
+}
+
+.linkedin {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    transition: background-color, color, margin, 0.5s ease;
+}
+
+.linkedin:hover {
+    background-color: #1e1e1e;
+    color:#f0f0f0;
+}
+
+.linkedin-link:link {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.linkedin-link:visited {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.linkedin:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+       /* adjust this to move up and down */
+    bottom: 60%; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: #C0C0C0;
+}
+
+.cv-int-spacing {
+    padding-bottom: 20px;
+}
+
+.cv-sub-spacing {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.cv-tit-spacing {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.cv-sub-spacing:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+       /* adjust this to move up and down */
+    bottom: 18px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: #C0C0C0;
+}
+
+.about-me-spacing {
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.about-me-tit-spacing:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+       /* adjust this to move up and down */
+    bottom: 79%; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: #C0C0C0;
+}
+
+.about-me-sub-spacing:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+       /* adjust this to move up and down */
+    bottom: 70%; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 4%;
+    background: #C0C0C0;  
+}
