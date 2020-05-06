@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+    color: #6EB5FF;
+    font-family: 'Nunito', sans-serif ;
+}
+
+div > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-background{
+    padding-top: 1vh;
+    background-color: #303030;
+}
+
+.logo {
+    padding-bottom: 8px;
+}
+
+.main-title {
+    font-size: 5em;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: #6EB5FF;
+}
+
+.nav-bar{
+    transition: background-color, 0.5s ease;
+    color:#6EB5FF;
+    text-decoration: none;
+}
+
+.nav-bar:hover {
+    background-color: #202020;
+    color: #AFF8DB;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding-top: 2vh;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 30px;
+    height: 5px;
+    background-color: #6EB5FF;
+    margin: 5px;
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+
+
+@media screen and (max-width: 1050px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        height: 86vh;
+        top: 13vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        background-color: #303030
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.cross .bline1{
+    transform: rotate(-45deg) translate(-6px,8px);
+}
+
+.cross .bline2{
+    opacity: 0;
+}
+
+.cross .bline3{
+    transform: rotate(45deg) translate(-6px,-8px);
+}

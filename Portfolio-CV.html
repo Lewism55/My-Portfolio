@@ -18,127 +18,140 @@
 
 <body>
     <div class="container-fluid no-gutters">
-        <div class="row">
-            <div class="col-md-1 logo">
-                <img src="logompl.png" alt="MPL Logo" class="img-fluid" width="50%"/>
+        <nav class="row nav-background">
+            <div class="logo" style="z-index:10">
+                <img src="logomplboldrounded.png" alt="MPL Logo" class="img-fluid" width=80 height=80/>
             </div>
-            <div class="col-md-3 main-title">
-                <h1> Michael Lewis </h1>
+            <div class="main-title" style="z-index:10">
+                <h1>Michael Lewis</h1>
             </div>
-            <div class="col-md-8">
-                <div class="row">
-                    <div class="col-sm nav-bar-1">
-                        <a href="portfolio-home-page.html" class="nav-bar-1">
-                            <h4>Home</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm nav-bar-2">
-                        <a href="portfolio-cv.html" class="nav-bar-2">
-                            <h4>CV</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm nav-bar-3">
-                        <a href="portfolio-about-me.html" class="nav-bar-3">
-                            <h4>About Me</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm nav-bar-4">
-                        <h4>Portfolio 1</h4>
-                    </div>
-                    <div class="col-sm nav-bar-5">
-                        <h4>Portfolio 2</h4>
-                    </div>
-                </div>
+            <ul class="nav-links" style="z-index: 5">
+                <li>
+                    <a href="portfolio-home-page.html"><h4 class="nav-bar">Home</h4></a>
+                </li>
+                <li>
+                    <a href="portfolio-cv.html"><h4 class="nav-bar">About Me</h4></a>
+                </li>
+                <li>
+                    <a href="portfolio-about-me.html"><h4 class="nav-bar">CV</h4></a>
+                </li>
+                <li>
+                    <a href="portfolio-design-page.html"><h4 class="nav-bar">Portfolio 1</h4></a>
+                </li>
+                <li>
+                    <a href="portfolio-design-page-2.html"><h4 class="nav-bar">Portfolio 2</h4></a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="bline1"></div>
+                <div class="bline2"></div>
+                <div class="bline3"></div>
             </div>
-        </div>
+            <script src="../PJAVASCRIPT/NAVBARTEST.js"></script>
+        </nav>
 
-        <div class="row">
+        <div class="row main-text-background">
             <div class="col-md-12 cv-tit-spacing">
                 <h1> Curriculum Vitae </h1>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row main-text-background">
+            <div class="col-md-12 cv-sub-spacing">
+                <h3> Technical Skills </h3>
+            </div>
+        </div>
+
+        <div class="row main-text-background">
+            <div class="col-md-12">
+                Since leaving formal education I have continued to learn new skills by self teaching or through in job training: <br /><br />
+            </div>
+        </div>
+        <div class="row main-text-background training-text">
+            <div class="col-md-12">
+                <ul>
+                    <li><b>Front End</b>- HTML, CSS, JavaScript incl. React JS<br />
+                        (I built this website from scratch with no templates using HTML, CSS, and JS) 
+                        <br /><br />
+                    </li>
+                    <li><b>SQL</b>- briefly use in my most recent role and self taught for some further knowledge <br />
+                         (basic & nested queries, table creation, joins, ER Diagrams etc )<br /><br />
+                    </li>
+                    <li><b>Design</b>- Competent using Adobe XD and novice level Photoshop <br />
+                        I have also used Balsamiq to practice and understand the wireframing process <br /><br />
+                    </li>
+                    <li><b>Basics</b>- fully proficient in MS Office and GoogleDocs (incl. advanced Excel skills)<br />
+                        I have also used Jira and Confluence previously so I am comfortable using these platforms<br />
+                    </li>
+                    <li><b>Other</b>- GDPR, IR35, Sales calls, complaint handling, Emotional awareness and intelligence<br /><br />
+                    </li>
+                    <li> <b>Note</b>- you can find examples of: HTML, CSS, JS, React, Adobe suite & Balsamiq use in my portfolio sections
+                    </li>
+                </ul>
+                <hr />
+                <!-- add in photos of HTML, CSS, JS, MS Office? GDocs? SQL?-->
+            </div>
+        </div>
+
+        <div class="row main-text-background">
             <div class="col-md-12 cv-sub-spacing">
                 <h3> Education </h3>
             </div>
         </div>
 
-        <div class="row cv-int-spacing">
+        <div class="row cv-int-spacing main-text-background">
             <div class="col-md-8"> 
                 <b>University of Leicester - School of Economics </b><br />
                 September 2012 - June 2015 <br />
                 BSc Banking and Finance: 2.1 <br />
-
+                <br />
+                <hr />
             </div>
             <div class="col-md-4">
-                <img width="25%" src="Leicester.png" alt="UoL logo">
+                <img class="school-logo" width="30%" src="Leicester.png" alt="UoL logo">
             </div>
         </div>
 
-        <div class="row cv-int-spacing">
+        <div class="row cv-int-spacing main-text-background">
             <div class="col-md-8">
                 <b>The Campion School Sixth Form</b> <br />
                 September 2010 - June 2012 <br />
                 A Level: Mathematics (A), Biology (B), Economics (C) <br />
-
+                <br />
+                <hr />
             </div>
             <div class="col-md-4">
-                <img width="25%" src="Campion.png" alt="Campion logo">
+                <img class="school-logo" width="30%" src="Campion.png" alt="Campion logo">
             </div>
         </div>
 
-        <div class="row">
+        <div class="row main-text-background">
             <div class="col-md-8">
                 <b>Marshalls Park Secondary School</b> <br />
                 September 2005 - June 2010 <br />
                 Total: 11 Equivalent GCSE A/A* grades <br />
                 (GCSE: 4xA*'s, 5xA's + 1 DD BTEC) <br />
-
+                <br />
+                <hr />
             </div>
             <div class="col-md-4">
-                <img width="25%" src="marshalls.png" alt="MPA Logo">
+                <img class="school-logo" width="30%" src="marshalls.png" alt="MPA Logo">
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 cv-sub-spacing">
-                <h3> Training </h3>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                Since leaving formal education I have had a somewhat varied career and undertaken other training by
-                myself or as part of my previous role:
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <ul>
-                    <li>Coding Languages: HTML, CSS, Javascript, SQL (novice), Python (novice)
-                    </li>
-                    <li>Computer usage: fully proficient in MS Office and GoogleDocs (incl. advanced Excel)
-                    </li>
-                    <li>Other schemes: GDPR , Sales calls, complaint handling, Emotional awareness and intelligence
-                    </li>
-                </ul>
-                <!-- add in photos of HTML, CSS, JS, MS Office? GDocs? SQL?-->
-            </div>
-        </div>
-
-        <div class="row">
+        <div class="row main-text-background">
             <div class="col-md-12 cv-sub-spacing">
                 <h3> Work Experience </h3>
             </div>
         </div>
 
-        <div class="row cv-int-spacing">
+        <div class="row cv-int-spacing main-text-background">
             <div class="col-md-4">
                 <h4>Lantum</h4>
                 October 2019 - January 2020:
                 <br />
-                <img  src="Lantum.png" alt="Lantum Logo" width="60%"/>
+                <br />
+                <img class="work-logo" src="Lantum.png" alt="Lantum Logo" width="60%"/>
             </div>
             <div class="col-md-8">
                 In my role as a Launch associate, my job was to project manage the implementation stage of a client’s
@@ -148,48 +161,44 @@
                 update calls, creating reports, providing data analysis on key metrics, presenting this data to clients,
                 managing expectations, conflict resolution, upselling ad-ons, generating referrals, internal set ups,
                 fixing technical issues etc. <br />
-                <br />Along with this, whilst at Lantum I was involved in 2 projects within the greater customer success
-                team. The first was to create a presentation which the entire team contributed to around the hopes and
-                visions for the next year. The second was an in depth review of what methods we had available to
-                maximise revenue within the customer success division. Both were well received and allowed for greater
-                cost efficiencies within the team. <br /><hr />
             </div>
         </div>
 
 
-        <div class="row cv-int-spacing">
+        <div class="row cv-int-spacing main-text-background">
             <div class="col-md-4">
                 <h3>Key Locums</h3>
                 March 2019 - October 2019:
                 <br />
-                <img  src="KeyLocums.png" alt="Key Locums Logo" width="60%" padding="10%"/>            
+                <br />
+                <img class="work-logo" src="KeyLocums.png" alt="Key Locums Logo" width="60%" padding="10%"/>            
             </div>
             <div class="col-md-8">
-                Key Locums was an established primary care locum agency based mainly out of Birmingham. I joined as
-                their sole consultant in London providing locum staff to primary care sites across the south of England.
-                I reported directly to the sales manager who managed the sales floor of approx 60 staff. <br /> <br />
+                Key Locums was an established primary care locum agency. I joined as
+                their sole consultant in London focusing on clients across the south of England.<br /> <br />
                 I was accountable for the entire business plan. When I joined the company there were no other employees
                 with experience of supply into the primary care market. the directors and senior management therefore
                 decided I would be given relative freedom to grow the desk how I saw fit. Because of this, I was
                 responsible for a range of daily actions including process management, planning, resourcing, business
                 development, compliance checks, timesheet procedure, etc. I created numerous processes around each task
                 to try and drive efficiency and provide maximum revenue generation.<br /> <br />
-                During my time with the company, I worked with 2 entry-level consultants who I trained and line managed
+                During my time with the company, I worked with 2 trainee consultants who I trained and line managed
                 alongside my other duties. I used various KPIs and regular 1-1s to ensure that they were both happy and
                 effective in their roles. <br /> <hr />
             </div>
         </div>
 
-        <div class="row cv-int-spacing">
+        <div class="row cv-int-spacing main-text-background">
             <div class="col-md-4">
                 <h3>The GP Agency</h3>
                 November 2017 - October 2018:
                 <br />
-                <img  src="GPAgency.png" alt="The GP Agency Logo" width="60%"/>
+                <br />
+                <img class="work-logo" src="GPAgency.png" alt="The GP Agency Logo" width="60%"/>
             </div>
             <div class="col-md-8">
-                The GP agency began trading in September 2016. As such it was very much a start up environment with a
-                maximum of 7 total employees at any time during my employment there. My remit was to actively provide
+                The GP agency began trading in September 2016. As a start up environment I worked with
+                maximum of 7 total employees at any one time during my employment. My remit was to actively provide
                 workers to primary care services across England and build relevant processes in the business to allow
                 the company to scale effectively. <br>
                 At times throughout my employment I was involved in all aspects of the business including: <br /> <br />
@@ -204,69 +213,52 @@
                     <li>Servicing clients by providing regular locum staff to cover their requirements.</li>
                     <li>Providing data reports, analysis and business plans for the managing/financial directors.</li>
                 </ul>
-                I was heavily involved with the setup of the in-hours compliance structures. I outlined the processes
-                and then actively managed and monitored the 3 part-time admin staff who were responsible for compliance.
-                I also proposed and implemented several other improvements such as adjusting the availability tracker,
-                simplifying the timesheet and payroll procedure and also creating how-to guides/templates for job board
-                posting. <br /><hr />
+                I was also heavily involved with the setup of our compliance structures. I outlined the processes
+                and then actively managed and monitored the 3 part-time admin staff who were responsible for compliance. <br /><hr />
             </div>
         </div>
 
-        <div class="row">
+        <div class="row main-text-background">
             <div class="col-md-4">
                 <h3>Pulse</h3>
                 August 2015 - November 2017:
                 <br />
-                <img  src="Pulse.png" alt="Pulse Logo" width="60%"/>
+                <br />
+                <img class="work-logo" src="Pulse.png" alt="Pulse Logo" width="60%"/>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 main-text-background-bottom">
                 My role was to supply staff to the private sector, covering all nursing specialities. My clients were
-                wide ranging which meant I required an understanding of how to cater my approach to different needs. I
-                placed workers into: private hospitals, hospices, day clinics, opticians, care homes, private schools,
-                abortion centres and UCCs. Furthermore, I was involved with bringing on new business from the first
+                wide ranging which meant I required an understanding of how to cater my approach to different needs. Furthermore, 
+                I was involved with bringing on new business from the first
                 point of contact. This included sending and confirming terms of business, negotiating rates, and
-                providing staff to ensure the client’s needs were fully met.<br /> <br />
-                a large part of my role was sourcing suitable candidates. I spent lots of time qualifying candidates for
-                roles within the private sector. I also helped to implement a set of processes which improved
-                integration between our booking and compliance teams and allowed better usage of our candidate pipeline.
+                providing staff to ensure the client’s needs were fully met. a large part of my role was sourcing suitable 
+                candidates. I spent lots of time qualifying candidates for roles within the private sector.
                 <br /> <br />
                 Initially I was a trainee consultant until July 2016. During this time, I worked on the midwifery
                 bookings team which covered both NHS and Private healthcare clients. I built relationships with them
-                through regular visits, emails and telephone calls to both staff banks and hospital wards. During my
-                time with the team, my clients included midwifery led wards for over 13 NHS trusts and 3 private
-                clients. We also worked to increase the number of active midwives from 150 to 240 over the year. We
-                provided them with shifts and assisted with compliance and payroll queries.
+                through regular visits, emails and telephone calls to both staff banks and hospital wards. I was also
+                involved in the resourcing of new candidates. 
+                <hr />
             </div>
         </div>
 
 
-        <div class="row">
+        <div class="row main-text-background attributes-spacing">
             <div class="col-md-12 cv-sub-spacing">
-                <h2>Skills</h2>
+                <h2>Attributes</h2>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row main-text-background">
+            <div class="col-md-12 skills-text">
                 <ul>
                     <li>flexible worker with experience working in teams, alone and taking the lead</li>
                     <li>Competent working with clients and managing expectations </li>
                     <li>Great attention to detail</li>
-                    <li>Fast Learner</li>
+                    <li>Fast Learner and good at adapting to change (from start-up experience)</li>
                 </ul>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-md-12 cv-sub-spacing">
-                <h2>Referees</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 cv-int-spacing">
-                I can happily provide professional or personal referee details if required
+                
+                <hr />
             </div>
         </div>
 
