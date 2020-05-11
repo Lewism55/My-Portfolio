@@ -1,0 +1,225 @@
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "ariel", sans-serif;
+    animation: black-to-reveal 2.5s ease;
+}
+
+
+
+@keyframes black-to-reveal {
+    0% {background: black}
+    100% {background: #fff6da}
+}
+
+@keyframes black-to-read {
+    0% {background: black}
+    100% {background: none);}
+}
+
+.body-grid {
+    display: grid;
+    grid-template-columns: 3fr repeat(5, 1fr);
+    grid-template-rows: 100px 1fr 100px;
+    object-fit: fill;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    margin: 0px;
+    animation: black-to-read 3s ease;
+}
+
+.hgrid1{
+    grid-column: span 1;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    animation: black-to-read 3s ease;
+}
+
+.hgrid2{
+    grid-column: span 1;
+    background-color: #696969;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background, color, margin, 0.5s ease;
+    animation: black-to-read 3s ease;
+}
+
+.hgrid2:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.hgrid3{
+    grid-column: span 1;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background, color, margin, 0.5s ease;
+    animation: black-to-read 3s ease;
+
+}
+.hgrid3:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.hgrid4{
+    grid-column: span 1;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background, color, margin, 0.5s ease;
+    animation: black-to-read 3s ease;
+
+}
+.hgrid4:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.hgrid5{
+    grid-column: span 1;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background, color, margin, 0.5s ease;
+    animation: black-to-read 3s ease;
+
+}
+.hgrid5:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.hgrid6{
+    grid-column: span 1;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: black-to-read 3s ease;
+
+
+}
+.hgrid6:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    margin: 5px;
+    padding-bottom: 10px;
+    transition: 0.5s ease;
+}
+
+
+.pic{
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pic img {
+    width: 60%;
+}
+
+.main-text{
+    grid-area: 2 / 3 / 2 / 6;
+    background-color: #C0C0C0;
+    color: #58b368;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    padding: 40px;
+    opacity: 85%;
+    animation: black-to-read 3s ease;
+
+}
+
+.phone{
+    grid-area: 3 / 3 / 3 / 3;
+    background-color: #696969 ;
+    color:#009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    animation: black-to-read 3s ease;
+
+}
+.phone:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.email{
+    grid-area: 3 / 4 / 3 / 4;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    animation: black-to-read 3s ease;
+
+}
+.email:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+
+.linkedin{
+    grid-area: 3 / 5 / 3 / 5;
+    background-color: #696969 ;
+    color: #009975;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    animation: black-to-read 3s ease;
+
+}
+.linkedin:hover {
+    background-color: #58b368;
+    color: #d9d872;
+    padding-top: 10px;
+    margin: 5px;
+}

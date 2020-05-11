@@ -1,0 +1,65 @@
+<!doctype html> 
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../PCSS/PStyle.css">
+        <meta charset="utf-8">
+        <meta name="description" content="This website contains a few details about me. It has a copy of my CV and some other portfolio projects I have been working on with HTML, CSS, JS and SQL">
+        <meta name="author" content="Michael Lewis">
+        <meta name="keywords" content="Michael, Lewis, CV, Portfolio, Work, UX, UI, HTML, JS, CSS, Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Michael Lewis</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="hgrid"> 
+                <div class="hgrid-item"><a href="portfolio.html">Home</a></div>
+                <div class="hgrid-item"><a href="portfolio-cv.html">CV</a></div>
+                <div class="hgrid-item"><a href="portfolio-about-me.html">About Me</a></div>
+                <div class="hgrid-item">Portfolio 1</div>
+                <div class="hgrid-item">Portfolio 2</div>
+            </div>
+        </section>
+
+        <section>
+            <div class="hpgrid">
+            <h1 class="hpgrid-item"
+            style="grid-area: 1 / 1 / span 1 / span 2;"
+            > Michael Lewis </h1>
+              
+            <img class="hpgrid-item" 
+            style="grid-area: 2 / 1 / span 2 / span 1;"
+            id="me-pic" width="30%" src="Pic%20of%20me.png" alt="Picture of Michael Lewis" />
+
+            <h2 class="hpgrid-item"
+            style="grid-area: 2 / 2 / span 1 / span 1;"
+            > Welcome to my website</h2>
+
+            <div class="hpgrid-item"
+            style="grid-area: 3 / 2 / span 1 / span 1;"
+            >I'm currently looking for my first role within UX/UI. Please feel free to have a look around my website. You can see my CV, a little about me, and a few projects I've been working on. If you have any further questions feel free to get in touch! </div>
+            </div>        
+        </section>
+
+    </body>
+
+    <footer>
+        <section>
+            <div class="fgrid">
+            <div class="fgrid-item" style="grid-area: 1 / 1 / span 1 / span 1">
+                <h3> Contact Info </h3></div>
+            <div class="fgrid-item" style="grid-area: 2 / 1 / span 1 / span 1">
+                Phone Number: 07910 209 089</div>
+            <div class="fgrid-item" style="grid-area: 3 / 1 / span 1 / span 1">
+                Email: Mikeplewis93@hotmail.com</div> 
+            <div class="fgrid-item" style="grid-area: 4 / 1 / span 1 / span 1">
+                LinkedIn: <a href= https://www.linkedin.com/in/michael-lewis-880144105>Michael Lewis</a></div>
+            <div class="fgrid-item" style="grid-area: 1 / 2 / span 4 / span 1"> </div>
+            </div>
+        </section>
+    </footer>
+
+
+</html>

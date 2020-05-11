@@ -1,0 +1,27 @@
+body{
+	font-family: 'Nunito', sans-serif ;
+}
+
+
+#mike-list li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #101010;
+	border: 2px solid #101010;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #6EB5FF;
+	transition: all 0.75s ease;
+}
+
+#mike-list li:hover {
+	background: #76CFE0;
+	border-color: #006400;
+}
+
+#mike-list li > button {
+	background: none;
+	border: none;
+	float: right;
+	color: #101010;
+}
